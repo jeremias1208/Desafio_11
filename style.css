@@ -1,0 +1,157 @@
+body{
+   width: 1545px;
+   height: 900px;
+font-family: 'Titillium Web', sans-serif;
+}
+#container{
+  margin: 0;
+  display: flex;
+  background: var(--gray-50,  #F8FAFC);
+  padding: 0;
+}
+.content_1 {
+flex-direction: column;
+margin:40px 280px 209px 110px;
+flex-direction:column;
+align-items: flex-start;
+
+}
+.logo{
+  margin-bottom: 114px;
+  }
+.content_text{
+align-items: flex-start;
+gap: 16px;
+margin: 0 0 40px 0;
+  }
+.content_text h1{
+color: var(--gray-800, #1E293B);
+font-family: Titillium Web;
+font-size: 36px;
+font-style: normal;
+font-weight:600;
+line-height: normal;
+margin:0 35px 0 0;
+}
+.content_text p{
+  color: var(--gray-600, #475569);
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 351px;
+}
+
+.input_buttons{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+}
+
+.input_group{
+  gap: 16px;
+}
+label{
+  color: var(--gray-800, #1E293B);
+font-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+margin-bottom: 8px;
+}
+input{
+  display: flex;
+  width: 384px;
+  padding: 16px 12px;
+  border-radius: 4px;
+  border: 1px solid #E2E8F0;
+  background: #fff;
+  
+}
+
+input:hover{
+    border: 1px solid 
+ var(--purple, #7C3AED);
+}
+input:focus{
+ outline:  1px solid #7C3AED;
+ border: 2px;
+}
+.aviso{
+  display: none;
+  color: #ED3A5A;
+font-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.pass{
+  display: flex;
+  justify-content:space-between ;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 16px;
+  
+}
+.pass #Esqueceu{
+  color: var(--purple, #7C3AED);
+font-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#button{
+  display: flex;
+  width: 100%;
+  padding: 16px 24px;
+  justify-content: center;
+  margin: 32px 0 32px;
+  border-radius: 4px;
+  border: none;
+background: var(--purple, #7C3AED);
+}
+
+#button:hover{
+  background: #9F67FF;
+}
+
+button{
+  color: #FFF;
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text p{
+  color: var(--gray-600, #475569);
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text a{
+  color: var(--purple, #7C3AED);
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration:none;
+}
+.text a:hover{
+  text-decoration: underline;
+}
+
+.content{
+flex-direction: column;
+}
