@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dados da Tabela</title>
+</head>
+<body>
+    <h1>Dados da Tabela de Usuários</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+        {% for linha in dados %}
+        <tr>
+            <td>{{ linha[0] }}</td>
+            <td>{{ linha[1] }}</td>
+            <td>{{ linha[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
